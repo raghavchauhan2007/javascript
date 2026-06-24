@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.button{
+    border: 1px solid transparent;
+    padding: 80px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: navy;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#grey {
+    background-color: grey;
+}
