@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #DA4167;
+    color: #011936;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-div {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#height {
+    margin-bottom: 10px;
+}
+
+#height, #weight {
+    background-color: lightpink;
+}
+
+#calculate {
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #011936;
+    color: lightblue;
+}
+
+.weight-guide {
+    margin-top: 80px;
+}
+
+#result {
+    margin-top: 40px;
+    font-size: larger;
+    display: none;
+}
