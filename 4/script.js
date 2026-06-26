@@ -1,7 +1,5 @@
 let randNum = Math.floor(Math.random() * 100 + 1)
 
-console.log(randNum);
-
 const userInput = document.getElementById('input')
 const submit = document.getElementById('submit')
 const previousGuesses = document.querySelector('.array')
