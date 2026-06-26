@@ -61,15 +61,14 @@ const validateGuess = (guess) => {
 
     else {
         prevGuesses.push(guess)
+        // Check the guess first (so a correct final guess wins)
+        checkGuess(guess)
         cleanup()
-        
-        if (prevGuesses.length === 10) {
+
+        // If this was the 10th attempt and the player hasn't won, end the game
+        if (prevGuesses.length === 10 && play) {
             displayMessage(`Game Over! ☹️ The number was ${randNum}`)
             endGame()
-        }
-
-        else {
-            checkGuess(guess)
         }
     }
 }
